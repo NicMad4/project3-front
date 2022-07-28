@@ -6,13 +6,6 @@ import TinderCard from 'react-tinder-card'
 
 import flechas from "../flechas.png"
 
-import FavoriteIcon from '@mui/icons-material/Favorite';
-
-import check from "../check.png"
-import close from "../close.png"
-import arrowleft from "../left-arrow.png"
-import arrowright from "../right-arrow.png"
-
 
 
 
@@ -25,11 +18,10 @@ function Food({
 
 
 return(
-  
-  
-  <div id="flechas">	
+    
 
-
+      <div>	
+      <h1>hola</h1>
       <div key={_id} id="containerdos">
 <div class="foodimage">
 	
@@ -37,22 +29,17 @@ return(
 	
 </div>
 
-	<h4 style={{marginTop:"15px", fontSize:"20px"}}>{name}</h4>
-  <img id="arrowleft" src={arrowleft} alt="" style={{marginRight:"15px"}}/>
-  <img id="close" src={close} alt="" style={{marginRight:"15px"}}/>
-  <img id="check" src={check} alt="" style={{marginRight:"15px"}}/>
-  <img id="arrowright" src={arrowright} alt=""/>
+	<h4 style={{marginTop:"25px", fontSize:"20px"}}>{name}</h4>
 
-  
+  <img src={flechas} alt=""/>
 
 
 <br/>
  
 </div>
-    
 </div>
      
-     
+      
 
      
      
